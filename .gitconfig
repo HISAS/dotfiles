@@ -1,0 +1,19 @@
+[ghq]
+    root = ~/.ghq
+
+[user]
+	name = Hisashi Kamezawa
+	email = hkame6926@gmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[github]
+	HISAS
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	cm = commit
+	df = diff
+	gr = grep
