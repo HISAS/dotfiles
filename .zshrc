@@ -34,3 +34,7 @@ setopt ignore_eof
  
 # '#' 以降をコメントとして扱う
 setopt interactive_comments
+
+# rbenv用
+export PATH="$HOME/.rbenv/bin:$PATH" 
+eval "$(rbenv init - zsh)"
