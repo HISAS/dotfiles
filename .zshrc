@@ -10,11 +10,6 @@ setopt auto_pushd
 # 重複したディレクトリを追加しない
 setopt pushd_ignore_dups
 
-# グローバルエイリアス
-alias -g L='| less'
-alias -g G='| grep'
-alias -g g='git'
-
 # ヒストリの設定
 HISTFILE=~/.zsh_history
 HISTSIZE=1000000
