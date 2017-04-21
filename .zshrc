@@ -22,15 +22,18 @@ SAVEHIST=1000000
 
 # 日本語ファイル名を表示可能にする
 setopt print_eight_bit
- 
+
 # beep を無効にする
 setopt no_beep
- 
+
 # フローコントロールを無効にする
 setopt no_flow_control
- 
+
 # Ctrl+Dでzshを終了しない
 setopt ignore_eof
- 
+
 # '#' 以降をコメントとして扱う
 setopt interactive_comments
+
+export PATH="$PATH:$HOME/.rbenv/bin"
+eval "$(rbenv init - zsh)"
