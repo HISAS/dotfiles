@@ -9,7 +9,7 @@
 	status = auto
 	branch = auto
 [github]
-	HISAS
+	hisas
 [alias]
 	st = status
 	co = checkout
@@ -17,3 +17,4 @@
 	cm = commit
 	df = diff
 	gr = grep
+  ad = add
