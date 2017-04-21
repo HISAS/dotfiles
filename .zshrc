@@ -7,8 +7,12 @@ compinit
 
 # cd したら自動的にpushdする
 setopt auto_pushd
+
 # 重複したディレクトリを追加しない
 setopt pushd_ignore_dups
+
+# エイリアス
+alias g='git'
 
 # ヒストリの設定
 HISTFILE=~/.zsh_history
