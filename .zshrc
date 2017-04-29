@@ -13,6 +13,10 @@ setopt pushd_ignore_dups
 
 # エイリアス
 alias g='git'
+alias be='bundle exec'
+alias bi='bundle install'
+alias bo='bundle open'
+alias bu='bundle update'
 
 # ヒストリの設定
 HISTFILE=~/.zsh_history
