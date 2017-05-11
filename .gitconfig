@@ -15,6 +15,12 @@
 	co = checkout
 	br = branch
 	cm = commit
+	cma = commit --amend
 	df = diff
 	gr = grep
-  ad = add
+        ad = add
+        pl = pull
+        rb = rebase -i
+        rb2 = rebase -i head~2
+        po = push origin head
+        pu = push upstream head

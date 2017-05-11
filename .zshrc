@@ -17,6 +17,9 @@ alias be='bundle exec'
 alias bi='bundle install'
 alias bo='bundle open'
 alias bu='bundle update'
+alias cop='rubocop'
+alias pec='rspec'
+
 
 # ヒストリの設定
 HISTFILE=~/.zsh_history
